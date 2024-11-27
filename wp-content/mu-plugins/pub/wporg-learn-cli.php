@@ -74,7 +74,7 @@ class WPORG_Learn_Tutorial_To_Lesson_Command extends WP_CLI_Command {
 		WP_CLI::line( "Slug: $slug" );
 
 		// Get post by slug
-		$post = get_page_by_path( $slug, OBJECT, 'wporg_workshop');
+		$post = get_page_by_path( $slug, OBJECT, 'wporg_workshop' );
 
 		if ( ! $post ) {
 			restore_current_blog();
