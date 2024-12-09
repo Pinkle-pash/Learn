@@ -33,6 +33,7 @@ body {
 
 // Ensure nested elements in containers with rounded corners are cropped to match
 // eg. card featured images
+// eg. card featured images
 [style*="border-radius:2px"] {
 	overflow: hidden;
 }
